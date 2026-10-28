@@ -105,7 +105,7 @@ function applyFilters() {
   wrap.classList.toggle("cvd-protanopia", document.getElementById("cvd2").checked);
 }
 
-const PLAN_URL = "../pusaka_plan.json";
+const PLAN_URL = "./myplan.json";
 fetch(PLAN_URL)
   .then((r) => r.json())
   .then((p) => {

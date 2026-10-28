@@ -1,0 +1,201 @@
+{
+  "name": "Rumah Joglo - traced schematic floor plan",
+  "units": "metres",
+  "note": "Schematic traced from a top-view reference image. Coordinates are approximate and are not field measurements.",
+  "scale_px_per_m": 22.0,
+  "origin_m": [
+    1.0,
+    1.0
+  ],
+  "polylines": [
+    {
+      "id": "outer_footprint",
+      "category": "wall",
+      "closed": true,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          0,
+          14
+        ]
+      ]
+    },
+    {
+      "id": "inner_structure",
+      "category": "wall",
+      "closed": true,
+      "points": [
+        [
+          2,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          2,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "central_structure",
+      "category": "cella",
+      "closed": true,
+      "points": [
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          4,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "pillar_1",
+      "category": "shrine",
+      "closed": false,
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          3.5,
+          3.5
+        ]
+      ]
+    },
+    {
+      "id": "pillar_2",
+      "category": "shrine",
+      "closed": false,
+      "points": [
+        [
+          9,
+          3
+        ],
+        [
+          9.5,
+          3.5
+        ]
+      ]
+    },
+    {
+      "id": "pillar_3",
+      "category": "shrine",
+      "closed": false,
+      "points": [
+        [
+          3,
+          11
+        ],
+        [
+          3.5,
+          11.5
+        ]
+      ]
+    },
+    {
+      "id": "pillar_4",
+      "category": "shrine",
+      "closed": false,
+      "points": [
+        [
+          9,
+          11
+        ],
+        [
+          9.5,
+          11.5
+        ]
+      ]
+    },
+    {
+      "id": "main_axis",
+      "category": "axis",
+      "closed": false,
+      "points": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          14
+        ]
+      ]
+    },
+    {
+      "id": "entrance",
+      "category": "stair",
+      "closed": true,
+      "points": [
+        [
+          4.5,
+          0
+        ],
+        [
+          7.5,
+          0
+        ],
+        [
+          7.5,
+          1.5
+        ],
+        [
+          4.5,
+          1.5
+        ]
+      ]
+    }
+  ],
+  "silhouette": {
+    "id": "footprint",
+    "category": "wall",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  }
+}
